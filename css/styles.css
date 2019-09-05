@@ -36,7 +36,7 @@ a:hover{
     text-align: left;
 }
 
-.create > *{
+.create > *, .create-button >*{
     vertical-align: middle;
 }
 
@@ -74,10 +74,48 @@ a:hover{
     margin-top: 3%;
 }
 
+.templates .columns:nth-child(4n+1){
+    margin-left: 0;
+}
+
+.templates .columns{
+    padding-bottom: 3%;
+}
+
 .box{
-    width: 302px;
+    width: 265px;
     height: 214px;
     background: #fff;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.16);
     float: left;
+    padding:20px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    position: relative;
+}
+
+h4{
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    color: #707070;
+
+}
+
+.create-button{
+    right: 20px;
+    position: absolute;
+    bottom: -12px;
+    vertical-align: middle;
+}
+
+.create-button svg{
+    width: 20px;
+    padding-right: 5px;
+    fill: #0078CF;
+}
+
+p.description{
+    max-height: 100px;
+    overflow: hidden;
 }
