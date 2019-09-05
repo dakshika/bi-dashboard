@@ -82,7 +82,7 @@ h4{
     font-weight: 300;
     font-size: 1.250em;
     text-align: center;
-    color: #707070;
+    color: #5f5f5f;
     margin-top: 0;
     margin-bottom: 1em;
     white-space: nowrap;
@@ -100,6 +100,10 @@ h4{
     border: 1px solid rgba(0, 0, 0, 0.05);
     position: relative;
     margin-bottom: 2em;
+}
+
+.box:hover h4{
+    color: #0078CF;
 }
 
 .create-button{
